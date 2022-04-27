@@ -1,0 +1,34 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-advanced-blockqute  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.advanced-blockquote{
+	border: none;
+	padding: 1em;
+	font-size: 1.3rem;
+
+	&:after, 
+	&:before{
+		display: none;
+	}
+}
+
+.advanced-blockquote cite{
+	display: block;
+	margin-top: 1em;
+	font-size: 0.8em;
+	text-transform: capitalize;
+}
+
+
